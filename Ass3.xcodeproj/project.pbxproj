@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD6B9309151FAFE100003193 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD6B9308151FAFE100003193 /* UIKit.framework */; };
+		BD6B930B151FAFE100003193 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD6B930A151FAFE100003193 /* Foundation.framework */; };
+		BD6B930D151FAFE100003193 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD6B930C151FAFE100003193 /* CoreGraphics.framework */; };
+		BD6B9313151FAFE100003193 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD6B9311151FAFE100003193 /* InfoPlist.strings */; };
+		BD6B9315151FAFE100003193 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6B9314151FAFE100003193 /* main.m */; };
+		BD6B9319151FAFE100003193 /* CBHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6B9318151FAFE100003193 /* CBHAppDelegate.m */; };
+		BD6B931C151FAFE100003193 /* CBHFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6B931B151FAFE100003193 /* CBHFirstViewController.m */; };
+		BD6B931E151FAFE100003193 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6B931D151FAFE100003193 /* first.png */; };
+		BD6B9320151FAFE100003193 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6B931F151FAFE100003193 /* first@2x.png */; };
+		BD6B9323151FAFE100003193 /* CBHSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6B9322151FAFE100003193 /* CBHSecondViewController.m */; };
+		BD6B9325151FAFE100003193 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6B9324151FAFE100003193 /* second.png */; };
+		BD6B9327151FAFE100003193 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6B9326151FAFE100003193 /* second@2x.png */; };
+		BD6B932A151FAFE100003193 /* CBHFirstViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD6B9328151FAFE100003193 /* CBHFirstViewController_iPhone.xib */; };
+		BD6B9330151FAFE100003193 /* CBHSecondViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD6B932E151FAFE100003193 /* CBHSecondViewController_iPhone.xib */; };
+		BD6B9341151FB15E00003193 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6B933F151FB15E00003193 /* ThirdViewController.m */; };
+		BD6B9342151FB15E00003193 /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD6B9340151FB15E00003193 /* ThirdViewController.xib */; };
+		BD6B9349151FB91500003193 /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6B9347151FB91500003193 /* check.png */; };
+		BD6B934A151FB91500003193 /* check@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6B9348151FB91500003193 /* check@2x.png */; };
+		BD6B934D151FB9DE00003193 /* guess.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6B934B151FB9DD00003193 /* guess.png */; };
+		BD6B934E151FB9DE00003193 /* guess@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6B934C151FB9DE00003193 /* guess@2x.png */; };
+		BD6B9354151FC00100003193 /* boss.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6B9353151FC00100003193 /* boss.png */; };
+		BD6B9359151FC24200003193 /* club.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6B9355151FC24100003193 /* club.png */; };
+		BD6B935A151FC24200003193 /* diamond.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6B9356151FC24100003193 /* diamond.png */; };
+		BD6B935B151FC24200003193 /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6B9357151FC24200003193 /* heart.png */; };
+		BD6B935C151FC24200003193 /* spade.png in Resources */ = {isa = PBXBuildFile; fileRef = BD6B9358151FC24200003193 /* spade.png */; };
+		BD8551C61520F6770072BF31 /* check_boss.png in Resources */ = {isa = PBXBuildFile; fileRef = BD8551C51520F6770072BF31 /* check_boss.png */; };
+		BD8551C91520F7A50072BF31 /* cheat_boss.png in Resources */ = {isa = PBXBuildFile; fileRef = BD8551C81520F7A50072BF31 /* cheat_boss.png */; };
+		BD8551D71521157E0072BF31 /* gong.wav in Resources */ = {isa = PBXBuildFile; fileRef = BD8551D61521157D0072BF31 /* gong.wav */; };
+		BD8551D9152119E20072BF31 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD8551D8152119E20072BF31 /* AudioToolbox.framework */; };
+		BD8551E115211C8C0072BF31 /* gong2.wav in Resources */ = {isa = PBXBuildFile; fileRef = BD8551E015211C8C0072BF31 /* gong2.wav */; };
+		BD8551E415211D750072BF31 /* VariableStore.m in Sources */ = {isa = PBXBuildFile; fileRef = BD8551E315211D750072BF31 /* VariableStore.m */; };
+		BD8551EA152138100072BF31 /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BD8551E9152138100072BF31 /* win.mp3 */; };
+		BD8551EC15213A310072BF31 /* no.wav in Resources */ = {isa = PBXBuildFile; fileRef = BD8551EB15213A310072BF31 /* no.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BD6B9304151FAFE100003193 /* Ass3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ass3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD6B9308151FAFE100003193 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BD6B930A151FAFE100003193 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BD6B930C151FAFE100003193 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BD6B9310151FAFE100003193 /* Ass3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ass3-Info.plist"; sourceTree = "<group>"; };
+		BD6B9312151FAFE100003193 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BD6B9314151FAFE100003193 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD6B9316151FAFE100003193 /* Ass3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ass3-Prefix.pch"; sourceTree = "<group>"; };
+		BD6B9317151FAFE100003193 /* CBHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBHAppDelegate.h; sourceTree = "<group>"; };
+		BD6B9318151FAFE100003193 /* CBHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBHAppDelegate.m; sourceTree = "<group>"; };
+		BD6B931A151FAFE100003193 /* CBHFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBHFirstViewController.h; sourceTree = "<group>"; };
+		BD6B931B151FAFE100003193 /* CBHFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBHFirstViewController.m; sourceTree = "<group>"; };
+		BD6B931D151FAFE100003193 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		BD6B931F151FAFE100003193 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		BD6B9321151FAFE100003193 /* CBHSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBHSecondViewController.h; sourceTree = "<group>"; };
+		BD6B9322151FAFE100003193 /* CBHSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBHSecondViewController.m; sourceTree = "<group>"; };
+		BD6B9324151FAFE100003193 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		BD6B9326151FAFE100003193 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		BD6B9329151FAFE100003193 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CBHFirstViewController_iPhone.xib; sourceTree = "<group>"; };
+		BD6B932F151FAFE100003193 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CBHSecondViewController_iPhone.xib; sourceTree = "<group>"; };
+		BD6B933E151FB15E00003193 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		BD6B933F151FB15E00003193 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		BD6B9340151FB15E00003193 /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
+		BD6B9347151FB91500003193 /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check.png; sourceTree = "<group>"; };
+		BD6B9348151FB91500003193 /* check@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "check@2x.png"; sourceTree = "<group>"; };
+		BD6B934B151FB9DD00003193 /* guess.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guess.png; sourceTree = "<group>"; };
+		BD6B934C151FB9DE00003193 /* guess@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guess@2x.png"; sourceTree = "<group>"; };
+		BD6B9353151FC00100003193 /* boss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boss.png; sourceTree = "<group>"; };
+		BD6B9355151FC24100003193 /* club.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = club.png; sourceTree = "<group>"; };
+		BD6B9356151FC24100003193 /* diamond.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = diamond.png; sourceTree = "<group>"; };
+		BD6B9357151FC24200003193 /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
+		BD6B9358151FC24200003193 /* spade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spade.png; sourceTree = "<group>"; };
+		BD8551C51520F6770072BF31 /* check_boss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check_boss.png; sourceTree = "<group>"; };
+		BD8551C81520F7A50072BF31 /* cheat_boss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cheat_boss.png; sourceTree = "<group>"; };
+		BD8551D61521157D0072BF31 /* gong.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = gong.wav; sourceTree = "<group>"; };
+		BD8551D8152119E20072BF31 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		BD8551E015211C8C0072BF31 /* gong2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = gong2.wav; path = Ass3/gong2.wav; sourceTree = "<group>"; };
+		BD8551E215211D750072BF31 /* VariableStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VariableStore.h; sourceTree = "<group>"; };
+		BD8551E315211D750072BF31 /* VariableStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VariableStore.m; sourceTree = "<group>"; };
+		BD8551E9152138100072BF31 /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = win.mp3; sourceTree = "<group>"; };
+		BD8551EB15213A310072BF31 /* no.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = no.wav; path = ../../../../Downloads/no.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD6B9301151FAFE100003193 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD6B9309151FAFE100003193 /* UIKit.framework in Frameworks */,
+				BD6B930B151FAFE100003193 /* Foundation.framework in Frameworks */,
+				BD6B930D151FAFE100003193 /* CoreGraphics.framework in Frameworks */,
+				BD8551D9152119E20072BF31 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD6B92F9151FAFE100003193 = {
+			isa = PBXGroup;
+			children = (
+				BD8551E015211C8C0072BF31 /* gong2.wav */,
+				BD6B930E151FAFE100003193 /* Ass3 */,
+				BD6B9307151FAFE100003193 /* Frameworks */,
+				BD6B9305151FAFE100003193 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD6B9305151FAFE100003193 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD6B9304151FAFE100003193 /* Ass3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD6B9307151FAFE100003193 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD8551D8152119E20072BF31 /* AudioToolbox.framework */,
+				BD6B9308151FAFE100003193 /* UIKit.framework */,
+				BD6B930A151FAFE100003193 /* Foundation.framework */,
+				BD6B930C151FAFE100003193 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD6B930E151FAFE100003193 /* Ass3 */ = {
+			isa = PBXGroup;
+			children = (
+				BD6B9317151FAFE100003193 /* CBHAppDelegate.h */,
+				BD8551E215211D750072BF31 /* VariableStore.h */,
+				BD8551E315211D750072BF31 /* VariableStore.m */,
+				BD6B9318151FAFE100003193 /* CBHAppDelegate.m */,
+				BD6B933E151FB15E00003193 /* ThirdViewController.h */,
+				BD6B933F151FB15E00003193 /* ThirdViewController.m */,
+				BD8551E9152138100072BF31 /* win.mp3 */,
+				BD8551D61521157D0072BF31 /* gong.wav */,
+				BD6B9340151FB15E00003193 /* ThirdViewController.xib */,
+				BD8551EB15213A310072BF31 /* no.wav */,
+				BD8551C81520F7A50072BF31 /* cheat_boss.png */,
+				BD6B931A151FAFE100003193 /* CBHFirstViewController.h */,
+				BD6B931B151FAFE100003193 /* CBHFirstViewController.m */,
+				BD6B9355151FC24100003193 /* club.png */,
+				BD6B9356151FC24100003193 /* diamond.png */,
+				BD6B9357151FC24200003193 /* heart.png */,
+				BD6B9358151FC24200003193 /* spade.png */,
+				BD6B934B151FB9DD00003193 /* guess.png */,
+				BD6B934C151FB9DE00003193 /* guess@2x.png */,
+				BD6B931D151FAFE100003193 /* first.png */,
+				BD6B931F151FAFE100003193 /* first@2x.png */,
+				BD6B9321151FAFE100003193 /* CBHSecondViewController.h */,
+				BD6B9322151FAFE100003193 /* CBHSecondViewController.m */,
+				BD6B9347151FB91500003193 /* check.png */,
+				BD6B9348151FB91500003193 /* check@2x.png */,
+				BD6B9324151FAFE100003193 /* second.png */,
+				BD6B9326151FAFE100003193 /* second@2x.png */,
+				BD6B9328151FAFE100003193 /* CBHFirstViewController_iPhone.xib */,
+				BD6B9353151FC00100003193 /* boss.png */,
+				BD8551C51520F6770072BF31 /* check_boss.png */,
+				BD6B932E151FAFE100003193 /* CBHSecondViewController_iPhone.xib */,
+				BD6B930F151FAFE100003193 /* Supporting Files */,
+			);
+			path = Ass3;
+			sourceTree = "<group>";
+		};
+		BD6B930F151FAFE100003193 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD6B9310151FAFE100003193 /* Ass3-Info.plist */,
+				BD6B9311151FAFE100003193 /* InfoPlist.strings */,
+				BD6B9314151FAFE100003193 /* main.m */,
+				BD6B9316151FAFE100003193 /* Ass3-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD6B9303151FAFE100003193 /* Ass3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD6B9336151FAFE100003193 /* Build configuration list for PBXNativeTarget "Ass3" */;
+			buildPhases = (
+				BD6B9300151FAFE100003193 /* Sources */,
+				BD6B9301151FAFE100003193 /* Frameworks */,
+				BD6B9302151FAFE100003193 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ass3;
+			productName = Ass3;
+			productReference = BD6B9304151FAFE100003193 /* Ass3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD6B92FB151FAFE100003193 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = BD6B92FE151FAFE100003193 /* Build configuration list for PBXProject "Ass3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BD6B92F9151FAFE100003193;
+			productRefGroup = BD6B9305151FAFE100003193 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD6B9303151FAFE100003193 /* Ass3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD6B9302151FAFE100003193 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD6B9313151FAFE100003193 /* InfoPlist.strings in Resources */,
+				BD6B931E151FAFE100003193 /* first.png in Resources */,
+				BD6B9320151FAFE100003193 /* first@2x.png in Resources */,
+				BD6B9325151FAFE100003193 /* second.png in Resources */,
+				BD6B9327151FAFE100003193 /* second@2x.png in Resources */,
+				BD6B932A151FAFE100003193 /* CBHFirstViewController_iPhone.xib in Resources */,
+				BD6B9330151FAFE100003193 /* CBHSecondViewController_iPhone.xib in Resources */,
+				BD6B9342151FB15E00003193 /* ThirdViewController.xib in Resources */,
+				BD6B9349151FB91500003193 /* check.png in Resources */,
+				BD6B934A151FB91500003193 /* check@2x.png in Resources */,
+				BD6B934D151FB9DE00003193 /* guess.png in Resources */,
+				BD6B934E151FB9DE00003193 /* guess@2x.png in Resources */,
+				BD6B9354151FC00100003193 /* boss.png in Resources */,
+				BD6B9359151FC24200003193 /* club.png in Resources */,
+				BD6B935A151FC24200003193 /* diamond.png in Resources */,
+				BD6B935B151FC24200003193 /* heart.png in Resources */,
+				BD6B935C151FC24200003193 /* spade.png in Resources */,
+				BD8551C61520F6770072BF31 /* check_boss.png in Resources */,
+				BD8551C91520F7A50072BF31 /* cheat_boss.png in Resources */,
+				BD8551D71521157E0072BF31 /* gong.wav in Resources */,
+				BD8551E115211C8C0072BF31 /* gong2.wav in Resources */,
+				BD8551EA152138100072BF31 /* win.mp3 in Resources */,
+				BD8551EC15213A310072BF31 /* no.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD6B9300151FAFE100003193 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD6B9315151FAFE100003193 /* main.m in Sources */,
+				BD6B9319151FAFE100003193 /* CBHAppDelegate.m in Sources */,
+				BD6B931C151FAFE100003193 /* CBHFirstViewController.m in Sources */,
+				BD6B9323151FAFE100003193 /* CBHSecondViewController.m in Sources */,
+				BD6B9341151FB15E00003193 /* ThirdViewController.m in Sources */,
+				BD8551E415211D750072BF31 /* VariableStore.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BD6B9311151FAFE100003193 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD6B9312151FAFE100003193 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BD6B9328151FAFE100003193 /* CBHFirstViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD6B9329151FAFE100003193 /* en */,
+			);
+			name = CBHFirstViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		BD6B932E151FAFE100003193 /* CBHSecondViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD6B932F151FAFE100003193 /* en */,
+			);
+			name = CBHSecondViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD6B9334151FAFE100003193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD6B9335151FAFE100003193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD6B9337151FAFE100003193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ass3/Ass3-Prefix.pch";
+				INFOPLIST_FILE = "Ass3/Ass3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BD6B9338151FAFE100003193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ass3/Ass3-Prefix.pch";
+				INFOPLIST_FILE = "Ass3/Ass3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD6B92FE151FAFE100003193 /* Build configuration list for PBXProject "Ass3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD6B9334151FAFE100003193 /* Debug */,
+				BD6B9335151FAFE100003193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD6B9336151FAFE100003193 /* Build configuration list for PBXNativeTarget "Ass3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD6B9337151FAFE100003193 /* Debug */,
+				BD6B9338151FAFE100003193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD6B92FB151FAFE100003193 /* Project object */;
+}
